@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP paragrafi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col p-3">
+            <header>
+                <!--            Bosh qismi boshlandi-->
+                <nav class="navbar navbar-light fixed-top" style="background-color: #9beaf2">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="image/logotip.jpg" alt="Bu yerda foto" width="30" height="30"
+                                 class="d-inline-block align-text-top">
+                            Dasturlash.uz
+                        </a>
+                        <button class="navbar-toggler text-light border border-info btn-outline-light " type="button"
+
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                             aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header text-dark" style="background-color: #9beaf2">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dasturlash.uz
+                                    kutubxonasi </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body text-dark" style="background-color: #bff0f5">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-dark" aria-current="page" href="index.html">Asosiy
+                                            menyu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">Dasturlash kutubxonasi</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-dark" href="#"
+                                           id="offcanvasNavbarDropdown"
+                                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Mavzular
+                                        </a>
+                                        <ul class="dropdown-menu border border-info"
+                                            aria-labelledby="offcanvasNavbarDropdown" style="background-color: #cdf0f7">
+                                            <li><a class="dropdown-item text-dark" href="#">Frontend</a></li>
+                                            <li><a class="dropdown-item text-dark" href="#">Backend</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider border border-info">
+                                            </li>
+                                            <li><a class="dropdown-item text-dark" href="#">Data Sience</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-2 border border-info" type="search"
+                                           placeholder="Qidirish"
+                                           aria-label="Search">
+                                    <button class="btn text-dark btn-outline-info" type="submit">Izlash</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!--Bosh qismi tugadi-->
+
+    <!--Main qatori boshlandi-->
+    <div class="row">
+        <!--saidbar qatori boshlandi-->
+        <div class="col-12 col-md-2">
+            <div class="list-group mt-5 border border-info mb-3">
+                <a href="https://en.wikipedia.org/wiki/Program"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Dasturlash
+                    uzi nima?</a>
+                <a href="https://en.wikipedia.org/wiki/Programming_language"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Dasturlash
+                    tillari</a>
+                <a href="https://en.wikipedia.org/wiki/Front_end"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Frontend
+                    dasturlash
+                    tillari</a>
+                <a href="https://en.wikipedia.org/wiki/Front-end_web_development"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Backend
+                    dasturlash
+                    tillari</a>
+                <a href="https://www.lewagon.com/tech-jobs/web-development/full-stack-developer"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Full
+                    Stack
+                    dasturlash</a>
+                <a href="https://en.wikipedia.org/wiki/Data_science"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Data
+                    Sience haqida</a>
+                <a href="https://en.wikipedia.org/wiki/Computer_security"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Cyber
+                    Security
+                    haqida</a>
+                <a href="https://en.wikipedia.org/wiki/Software_framework"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Freemworklar
+                    haqida</a>
+                <a href="https://en.wikipedia.org/wiki/Software_framework"
+                   class="list-group-item list-group-item-action border border-info" style="background-color: #9beaf2">Java
+                    Script freemworklari</a><a href="https://en.wikipedia.org/wiki/Software_framework"
+                                               class="list-group-item list-group-item-action border border-info"
+                                               style="background-color: #9beaf2">React</a><a
+                    href="https://en.wikipedia.org/wiki/Software_framework"
+                    class="list-group-item list-group-item-action border border-info"
+                    style="background-color: #9beaf2">Angular</a><a
+                    href="https://en.wikipedia.org/wiki/Software_framework"
+                    class="list-group-item list-group-item-action border border-info"
+                    style="background-color: #9beaf2">Viu</a><a href="https://en.wikipedia.org/wiki/Software_framework"
+                                                                class="list-group-item list-group-item-action border border-info"
+                                                                style="background-color: #9beaf2">Backend tillari</a><a
+                    href="https://en.wikipedia.org/wiki/Software_framework"
+                    class="list-group-item list-group-item-action border border-info"
+                    style="background-color: #9beaf2">PHP</a><a href="https://en.wikipedia.org/wiki/Software_framework"
+                                                                class="list-group-item list-group-item-action border border-info"
+                                                                style="background-color: #9beaf2">Python</a><a
+                    href="https://en.wikipedia.org/wiki/Software_framework"
+                    class="list-group-item list-group-item-action border border-info"
+                    style="background-color: #9beaf2">C#</a><a href="https://en.wikipedia.org/wiki/Software_framework"
+                                                               class="list-group-item list-group-item-action border border-info"
+                                                               style="background-color: #9beaf2">Java</a>
+            </div>
+        </div>
+        <!--<sidebar qatori tugadi-->
+        <!--        PARAGRAF QATORI BOSHLANDI-->
+        <div class="col-10 col-md-10 pt-5">
+            <div class="alert alert-primary" role="alert">
+                <div class="foo">
+                    <h1>PHP</h1>
+                    <p>PHP ( /pi:.eɪtʃ.pi:/ Inglizcha PHP: Hypertext Preprocessor - "PHP: hypertext preprocessor ";
+                        dastlab PHP / FI (Personal Home Page / Form Interpreter) va keyinchalik Personal Home Page Tools
+                        [11] - " Asboblar shaxsiy veb-sahifalarni yaratish uchun") umumiy maqsadli skript tilidir [12] ,
+                        u veb-ilovalarni ishlab chiqish uchun intensiv ravishda qo'llaniladi. Hozirda u
+                        hosting-provayderlarning aksariyati tomonidan qo'llab-quvvatlanadi va dinamik veb-saytlarni
+                        yaratishda ishlatiladigan yetakchi tillardan biridir [13] .
+
+                        Til va uning tarjimoni ( Zend Engine ) ochiq kodli loyiha [14] doirasida bir guruh ishqibozlar
+                        tomonidan ishlab chiqilmoqda . Loyiha GNU GPL bilan mos kelmaydigan o'z litsenziyasi ostida
+                        tarqatiladi . Qo'llash doirasi
+                        Veb-dasturlash sohasida, xususan server tomonida, PHP mashhur skript tillaridan biri ( JSP ,
+                        Perl va ASP.NET da ishlatiladigan tillar bilan birga ).
+
+                        Veb-saytlarni yaratish sohasidagi mashhurlik veb-ilovalarni ishlab chiqish uchun o'rnatilgan
+                        vositalar va qo'shimcha modullarning katta to'plamining mavjudligi bilan belgilanadi [15] .
+                        Ulardan asosiylari:
+
+                        POST va GET parametrlarini, shuningdek, veb-server muhiti o'zgaruvchilarini oldindan belgilangan
+                        massivlarga avtomatik ravishda chiqarish ;
+                        qo'shimcha modullar ( MySQL , MySQLi , SQLite , PostgreSQL , Oracle Database (OCI8), Microsoft
+                        SQL Server , Sybase , ODBC , mSQL , IBM DB2 , Cloudscape va Apache Derby OQL , Inv , Inv )
+                        orqali ko'p sonli turli xil ma'lumotlar bazasini boshqarish tizimlari bilan o'zaro ta'sir qilish
+                        , Lotus Notes , DB++ , DBM , dBase , DBX , FrontBase ,FilePro , Ingres II , SESAM , Firebird va
+                        InterBase , Paradox File Access , MaxDB , PDO interfeysi , Redis );
+                        HTTP sarlavhalarini avtomatik yuborish ;
+                        HTTP avtorizatsiyasi bilan ishlash;
+                        kukilar va seanslar bilan ishlash ;
+                        mahalliy va masofaviy fayllar, rozetkalar bilan ishlash ;
+                        serverga yuklangan fayllarni qayta ishlash;
+                        XForms bilan ishlash .
+                        2010-yillarda yuz minglab ishlab chiquvchilar tomonidan foydalanilgan; Qidiruv tizimi
+                        ma'lumotlariga asoslangan TIOBE reytingiga ko'ra, 2016 yil may oyida PHP dasturlash tillari
+                        orasida 6-o'rinni egalladi [13] .
+
+                        LAMP - ga kiritilgan - veb- saytlarni yaratish va joylashtirish uchun umumiy dasturlar to'plami
+                        ( Linux , Apache , MySQL , PHP).
+
+                        PHP dan foydalanadigan saytlar orasida Facebook , Vikipediya , Yahoo! , Baidu .Til Netscape
+                        standartlariga muvofiq HTTP cookie -fayllarini avtomatik ravishda qo'llab-quvvatlaydi. Bu mijoz
+                        tomonida ma'lumotlarning kichik segmentlarini sozlash va o'qish imkonini beradi. Cookie-fayllar
+                        bilan ishlash sessiyalar (sessiyalar) orqali tashkil etiladi. Seanslar amal qilish muddatiga ega
+                        (muddati tugagandan so'ng, ma'lumotlar o'chiriladi), sessiyalarda siz har xil turdagi
+                        ma'lumotlarni saqlashingiz va tahrirlashingiz mumkin, shu jumladan ketma-ketlashtirilgan
+                        ma'lumotlar - serializatsiya orqali o'tgan (jarayon avtomatik ravishda amalga oshiriladi), PHP
+                        ob'ektlari.
+
+                        GUI ilovalarini yaratish
+                        PHP ish stoli ilovalarini yaratishga qaratilgan emas, lekin serverlarni sozlash, uzluksiz
+                        bajarish, skriptlarni (skriptlarni) disk raskadrovka qilish, mahalliy va test serverlarini
+                        boshqarish va hokazolar uchun interfeyslarni yaratish zarurati paydo bo'ldi. Shu sababli ushbu
+                        muammoni hal qilish yo'llari paydo bo'ldi.
+
+                        Kengaytmalar
+                        Kengaytmalardan asosiy foydalanish foydalanuvchi interfeysi kutubxonalarini (UI kutubxonalari)
+                        qo'shishdir.
+
+                        Kengaytmalar shartli ravishda uch guruhga bo'linadi:
+
+                        PHP kengaytmalari: WxPHP ( Windows , Linux , macOS ), Winbinder ( Windows );
+                        FFI vositalaridan foydalangan holda tizim funktsiyalaridan foydalanadigan o'ramlar: Win32Std,
+                        Tk;
+                        buyruq qatori interfeysidan foydalanish uchun o'ramlar: PHP-UI, PHP-XCB.
+                        PHP kengaytmalarini yozishda boshqa tillardan foydalanish uchun ikki tomonlama oʻram kabi
+                        kengaytmalar ishlab chiqilgan va aksincha. Masalan, PSV komponentlar kutubxonasi uchta kichik
+                        loyihadan iborat loyihadir:
+
+                        PHP4Delphi WinAPI yordamida Delphida yozilgan dasturlarga PHP ulanishlarini amalga oshiradi ;
+                        1999 yildan beri ishlab chiqilgan, ammo 2009 yildan beri yangilanmagan, shu sababli filiallar
+                        paydo bo'lgan;
+                        PHP kengaytmalarini ishlab chiqish ramkasi - PHP kengaytmalarini yaratish vositasi, VCL
+                        komponentlari - PHP4Delphi ning ajralmas qismi, asosiy komponentlari ilovalar yaratish uchun
+                        zarur;
+                        php4Applications — PHP4Delphi asosidagi boshqa tillarda PHP dan foydalanish uchun kengaytma
+                        boʻlib, u makroslarga kirish imkonini beradi va oʻram yaratish zaruratini yoʻqotib, PHP dan
+                        foydalanishni soddalashtiradi.
+                        Rivojlanish muhitlari (IDE)
+                        GUI PHP uchun toʻliq ishlab chiqish muhitlari uchun joy ham mavjud:
+
+                        DevPHP
+                        Ushbu toifadagi kashshoflardan biri DevPHP-IDE studiyasi bo'lib, u Kylix ( Delphi ) dan
+                        interfeysning asosi va php- cli -dan maxsus dasturlarni yaratish uchun foydalangan.
+
+                        U kod muharriri, bir nechta vositalar va vizual HTML ko'rish vositasini o'z ichiga oladi.
+
+                        U birinchi marta 2002 yilda taqdim etilgan, hozirda uning 3 ta barqaror versiyasi mavjud, ammo
+                        rivojlanish davom etmaydi - u avtohalokatda asosiy ishlab chiquvchining o'limi tufayli to'xtadi.
+
+                        CodeGear Rad Studio (kengaytma)
+                        DevPHP IDE dan so'ng kengaytma paydo bo'ldi - CodeGear Rad Studio 2009 uchun komponentlar
+                        to'plami php4delphi asosida ba'zi yaxshilanishlarga ega (veb-elementlar, inspektor, tuzatuvchi),
+                        uni qo'llab-quvvatlash to'rtta versiyada davom etdi, ikkinchisi esa pullik Rad kengaytmasiga
+                        kiritilgan. Studio 2010 : dasturni yaratishdan oldin skriptlardan, uslublar veb-komponentlaridan
+                        foydalanish, uslublar va veb-sahifalarni ko'rish, mahalliy serverni ishga tushirish, dasturni
+                        mustaqil dastur sifatida yaratish va kodni disk raskadrovka qilish imkoniyati mavjud edi. Delphi
+                        XE-ning chiqarilishi bilan kengaytma RADPHP Xe nomini oldi. Bundan tashqari, studiyaning o'zi
+                        Embarcadero Delphi nomi bilan tanildi va bu kengaytma bo'yicha ishlar noma'lum muddatga
+                        to'xtatildi.
+
+                        DevelStudio (RAD)
+                        2009 yilda php4delphi asosida PHP grafik ilovalarini yaratish muhitini ishlab chiqish boshlandi,
+                        keyinchalik unga Rostislav Romanov ham qo'shildi. Muhit PHP DevelStudio deb nomlangan, birinchi
+                        nashr etilgan versiyasi 0.1.7 edi. DevelStudio asboblar qutisida oz sonli komponentlarga ega edi
+                        va eskirgan PHP 4 da ishladi. Ikkinchi versiyada DevelStudio PHP 5 uchun qo'llab-quvvatlandi.
+                        Oqimlar qo'shildi, ko'plab o'zgarishlar va yaxshilanishlar amalga oshirildi. Dasturlarning
+                        yig'ish kodi yopildi, buzg'unchilarning oldini olish uchun dasturning oldingi versiyalari va
+                        forumdagi xabarlar o'chirildi.
+
+                        DevelStudio-ning ikkinchi versiyasi ham AlphaControls komponentlari to'plamini oldi, buning
+                        natijasida soddaligi va ravshanligi tufayli zararli dasturlarni yaratishda foydalanildi. O'sha
+                        paytda mashhur bo'lgan antiviruslar (MacAffee, AVG , Avira ) DevelStudio-da tuzilgan har qanday
+                        dasturlarni virus sifatida taniy boshladi.
+
+                        Bir muncha vaqt o'tgach, AlphaControls muallifi DevelStudio dasturchilariga shikoyat qildi va
+                        komponentlar to'plami atrof-muhitdan butunlay olib tashlandi, ammo u allaqachon mavjud versiyada
+                        saqlanib qoldi, bu safar uni forumdan olib tashlab bo'lmadi.
+
+                        2012-yilda atrof-muhitning so'nggi versiyasi chiqdi - 3.0.2, unda yangi komponentlar to'plami
+                        paydo bo'ldi, jumladan, IE o'rniga Chromium brauzeri , bu veb-ishlab chiquvchilar va Algoritm
+                        muhiti foydalanuvchilarining e'tiborini tortdi. O'sha paytda Algoritmda dasturlarni
+                        kompilyatsiya qilish pullik edi, shuning uchun DevelStudio yangi va bepul rivojlanish muhiti
+                        sifatida ko'pchilikni o'ziga jalb qildi.
+
+                        2014 yilda atrof-muhitni tiklash bo'yicha birinchi urinishlar boshlandi, bu safar hamjamiyat
+                        tomonidan . 2018 yil oxirida manba kodi qayta tiklandi va GitHub da mavjud .
+
+                        2019-yilda hamjamiyat DevelStudio yaratuvchisiga atrof-muhitni tarqatish siyosatini o‘zgartirish
+                        va uni yangilash va tahrirlash uchun taqdim etish uchun murojaat qildi. Amaldagi kutubxonalarga
+                        (DCEF, PHP4Delphi, TSizeCtrl, SynEdit) havolalar yoʻqligi haqidagi shikoyatlar tufayli forum
+                        oʻchirib tashlandi va atrof-muhitni tavsiflovchi sahifalardan biri saytning bosh sahifasiga
+                        yoʻnaltirildi. Bundan buyon DevelStudio rasmiy ravishda hamjamiyatga tegishli.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--        pARAGRAF QATORI TUGADI-->
+        <!--FOOTER QATORI BOSHLANDI-->
+        <div class="row">
+            <div class="col p-3 bg-info text-dark">
+                <footer>
+                    &copy Developer UZ;
+                </footer>
+            </div>
+        </div>
+        <!--        FOOTER QATORI TUGADI-->
+    </div>
+</div>
+
+
+</body>
+</html>
